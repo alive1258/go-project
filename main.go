@@ -17,7 +17,10 @@ func main(){
 	var x,y int =25,30
 	// x=23
 	// y=37
+	 rating:=1234.4564648
+
 	
+	fmt.Printf("rating is %.2f",rating)
 	fmt.Println(name)
 	fmt.Println(age)
 	fmt.Println(x,y)
