@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	a := 10
-	p := a
-
-	a=100
-	fmt.Println(a, p)
+func makeCoffee(kind string){
+	fmt.Printf("making  %s coffee.........\n", kind)
 }
