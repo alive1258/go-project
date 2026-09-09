@@ -20,5 +20,6 @@ func main() {
 	sum := add(10, 20, 30)
 	println(sum)
 
-	greet("Hello, ", "Alice", "Bob", "Charlie")
+	mps :=[]string{"Jon", "Arya", "Sansa"}
+	greet("Hello, ", mps...)
 }
